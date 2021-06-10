@@ -8,4 +8,14 @@
       <image  mode="heightFix" src="/images/xiaoxi.png"></image>
     </navigator>
   </view>
+
+  <view class="banner">
+    <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+    indicator-active-color="#fff" circular autoplay interval="3000"
+    >
+      <swiper-item><image src="/images/banner1.jpg"></image></swiper-item>
+      <swiper-item><image src="/images/banner2.jpg"></image></swiper-item>
+      <swiper-item><image src="/images/banner3.jpg"></image></swiper-item>
+    </swiper>
+  </view>
 </view>

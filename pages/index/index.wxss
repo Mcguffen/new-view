@@ -1,7 +1,7 @@
 .header{
   width: 750rpx;
   height: 90rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .hdCon{
   display: flex;
@@ -30,4 +30,16 @@
   opacity: 0;
 }
 
-
+.banner{
+  width: 100%;
+  height: 295rpx;
+  border: 1px solid green;
+}
+.banner swiper{
+  height: 100%;
+  width: 100%;
+}
+.banner image{
+  width: 100%;
+  height: 295rpx;
+}
