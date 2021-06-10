@@ -18,4 +18,30 @@
       <swiper-item><image src="/images/banner3.jpg"></image></swiper-item>
     </swiper>
   </view>
+
+  <scroll-view class="major" scroll-x> 
+    <!-- <view class="majorCon"> -->
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng1.png"/>
+        <view class="txt">平面设计</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng2.png"/>
+        <view class="txt">室内设计</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng3.png"/>
+        <view class="txt">UI设计</view>
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng4.png"/>
+        <view class="txt">影视后期</view>
+        
+      </navigator>
+      <navigator class="box" url="">
+        <image class="pic" src="/images/kecheng5.png"/>
+        <view class="txt">Web前端</view>
+      </navigator>
+    <!-- </view> -->
+  </scroll-view>
 </view>
