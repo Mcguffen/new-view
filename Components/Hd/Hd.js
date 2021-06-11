@@ -1,4 +1,4 @@
-// Components/nv/nv.js
+// Components/Hd/Hd.js
 Component({
   /**
    * 组件的属性列表

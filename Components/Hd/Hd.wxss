@@ -1,0 +1,32 @@
+/* Components/Hd/Hd.wxss */
+.header{
+  width: 750rpx;
+  height: 90rpx;
+  /* border: 1px solid red; */
+}
+.hdCon{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 100%;
+}
+.hdCon navigator{
+  height: 50rpx;
+}
+.hdCon image{
+  height: 100%;
+}
+.xiaoxi{
+  position: relative;
+  animation: dh 1s linear infinite alternate;
+
+}
+.xiaoxi button{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  top: 0;
+  left: 0;
+  opacity: 0;
+}

@@ -1,16 +1,5 @@
-<view class="header">
-  <view class="container hdCon">
-    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
-      <image mode="heightFix" src="/images/logo.gif"></image>
-    </navigator>
-    <navigator class="xiaoxi">
-      <button open-type="contact"></button>
-      <image  mode="heightFix" src="/images/xiaoxi.png"></image>
-    </navigator>
-  </view>
-</view>
+<Hd></Hd>
 
-<nv>自定义组件nv</nv>
 
   <view class="banner">
     <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
