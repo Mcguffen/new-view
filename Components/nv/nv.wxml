@@ -1,0 +1,2 @@
+<!--Components/nv/nv.wxml-->
+<view class="box">这是自定义组件nv</view>

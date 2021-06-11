@@ -1,0 +1,4 @@
+/* Components/nv/nv.wxss */
+.box{
+  background: pink;
+}

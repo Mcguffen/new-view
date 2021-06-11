@@ -10,6 +10,7 @@
   </view>
 </view>
 
+<nv>自定义组件nv</nv>
 
   <view class="banner">
     <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
