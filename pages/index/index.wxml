@@ -39,7 +39,7 @@
 
   <view class="works">
     <view class="container">
-      <PubTitle myTitle="作品"></PubTitle>
+      <PubTitle myTitle="作品"  myUrl='/pages/works/works'></PubTitle>
 
       <view class="wkMain">
 
@@ -121,7 +121,7 @@
 
   <view class="dynamic">
     <view class="container">
-      <PubTitle myTitle="行业动态"></PubTitle>
+      <PubTitle myTitle="行业动态" myUrl="/pages/dynamic/dynamic"></PubTitle>
 
       <view class="dyMain">
 

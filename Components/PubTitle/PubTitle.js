@@ -7,8 +7,12 @@ Component({
     myTitle: {
       type:String,
       value:""
+      },
+      myUrl:{
+        type:String,
+        value:""
       }
-    // myTitle:String
+    
   },
 
   /**
