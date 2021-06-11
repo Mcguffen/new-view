@@ -130,4 +130,33 @@
   </view>
 
 
+  <view class="dynamic">
+    <view class="container">
+      <view class="pubTitle">
+        <view class="txt">行业动态</view>
+        <navigator class="more">更多></navigator>
+      </view>
+
+      <view class="dyMain">
+
+        <navigator class="dyItem" wx:for="{{5}}">
+          <view class="pic">
+            <image src="/images/xszp1.jpg"></image>
+          </view>
+          <view class="txt">
+            <view class="title">标题标题标题标题标题标题标题标题标题</view>
+            <view class="info">
+              <text>作者：</text>xx <text space="ensp"> - </text>
+              <text>时间：</text>2021-05-01</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <view class="footer">
+    <image class="pic" mode="widthFix" src="/images/logo.gif"></image>
+    <text class="text">-我来组成底部-</text>
+  </view>
+
 </view>
