@@ -124,18 +124,20 @@
       <PubTitle myTitle="行业动态" myUrl="/pages/dynamic/dynamic"></PubTitle>
 
       <view class="dyMain">
-
-        <navigator class="dyItem" wx:for="{{5}}">
+        <navigator class="dyItem" wx:for="{{dataList}}">
           <view class="pic">
             <image src="/images/xszp1.jpg"></image>
           </view>
           <view class="txt">
-            <view class="title">标题标题标题标题标题标题标题标题标题</view>
+            <view class="title">
+              {{item.title}}
+            </view>
             <view class="info">
-              <text>作者：</text>xx <text space="ensp"> - </text>
+              <text>作者：</text>{{item.author}} <text space="ensp"> - </text>
               <text>时间：</text>2021-05-01</view>
           </view>
         </navigator>
+
       </view>
     </view>
   </view>
