@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "Hd":"/Components/Hd/Hd"
+    "Hd":"/Components/Hd/Hd",
+    "Ft":"/Components/Ft/Ft"
   }
 }

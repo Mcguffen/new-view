@@ -146,8 +146,5 @@
     </view>
   </view>
 
-  <view class="footer">
-    <image class="pic" mode="widthFix" src="/images/logo.gif"></image>
-    <text class="text">-我来组成底部-</text>
-  </view>
+<Ft></Ft>
 
