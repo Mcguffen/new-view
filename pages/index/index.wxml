@@ -8,6 +8,8 @@
       <image  mode="heightFix" src="/images/xiaoxi.png"></image>
     </navigator>
   </view>
+</view>
+
 
   <view class="banner">
     <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
@@ -159,4 +161,3 @@
     <text class="text">-我来组成底部-</text>
   </view>
 
-</view>

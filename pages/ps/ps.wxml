@@ -1,0 +1,129 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/logo.gif"></image>
+    </navigator>
+    <navigator class="xiaoxi">
+      <button open-type="contact"></button>
+      <image  mode="heightFix" src="/images/xiaoxi.png"></image>
+    </navigator>
+  </view>
+
+</view>
+
+
+
+<view class="banner">
+  <image  src="/images/psbanner.jpg" mode="widthFix"></image>
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxConOne">
+  <view class="item">
+    <image src="/images/photoshop.png"></image>
+    <view>photoshop</view>
+  </view>
+  <view class="item">
+    <image src="/images/ai.png"></image>
+    <view>Adobe illustrator</view>
+  </view>  <view class="item">
+    <image src="/images/id.png"></image>
+    <view>indesign</view>
+  </view>  <view class="item">
+    <image src="/images/CDR.png"></image>
+    <view>coreldraw</view>
+  </view>  <view class="item">
+    <image src="/images/acr.png"></image>
+    <view>acrobat</view>
+  </view>
+
+  </view>  
+</view>
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字世界特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字世界特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字世界特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字世界特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+<view class="psBox">
+  <view class="psBoxTit">专业软件技能</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>人像精修</view>
+      <view>商业广告片调色</view>
+      <view>商业海报级视觉精修</view>
+      <view>卡通人物制作</view>
+      <view>2.5D插画制作</view>
+      <view>3D文字世界特效制作</view>
+      <view>平面广告创意</view>
+      <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+
+
+<view class="footer">
+    <image class="pic" mode="widthFix" src="/images/logo.gif"></image>
+    <text class="text">-我来组成底部-</text>
+  </view>
