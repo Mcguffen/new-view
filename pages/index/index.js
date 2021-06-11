@@ -1,3 +1,4 @@
+import common from "../../utils/common.js"
 Page({
 
   /**
@@ -14,26 +15,22 @@ Page({
     // 发请求获取真实数据，行业动态列表
     wx.request({
       url: 'https://ku.qingnian8.com/school/list.php',
+      data:{
+        num:5
+      },
       success:res => {
-        // 修改数据中的时间 将时间戳修改成日常时间
+
         res.data.forEach(item=>{
-          // php后台传来的时间戳是以秒（9位数）为单位 js中时间戳也毫秒为单位
-          // 1s=1000ms
-          var time = item.posttime * 1000
-          var d = new Date(time)
-          // 下面的+1是我自己改的 为了让数据看着新
-          var year = d.getFullYear() + 1
-          // 0-11月 三元运算符为了给小于10的月份前面+个“0”
-          var month = (d.getMonth() + 1) < 10 ? "0"+(d.getMonth() + 1) : (d.getMonth() + 1)
-          // getDay（）返回的是一周的第几天
-          var day = d.getDate()<10 ? '0'+d.getDate() : d.getDate()
-          var posttime = year + "-" + month + "-" + day
-          item.posttime = posttime
+          item.posttime = common.getTime(item.posttime,"Y-m-d")
+          item.title = common.getStrLen(item.title,10)
         })
+
         this.setData({
           dataList:res.data
         })
+
       }
+      
     })
   },
 
