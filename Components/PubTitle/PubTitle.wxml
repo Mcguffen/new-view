@@ -1,5 +1,5 @@
 <!--Components/PubTitle/PubTitle.wxml-->
 <view class="pubTitle">
-        <view class="txt">作品</view>
+        <view class="txt">{{myTitle}}</view>
         <navigator class="more">更多></navigator>
 </view>
