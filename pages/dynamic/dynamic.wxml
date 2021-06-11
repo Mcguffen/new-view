@@ -1,2 +1,7 @@
 <!--pages/dynamic/dynamic.wxml-->
-<text>pages/dynamic/dynamic.wxml</text>
+<Hd></Hd>
+<view>
+  我是内容
+</view>
+
+<Ft></Ft>

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "Hd":"/Components/Hd/Hd",
+    "Ft":"/Components/Ft/Ft"
+  }
 }
