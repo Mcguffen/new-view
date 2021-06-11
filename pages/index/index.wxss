@@ -41,36 +41,6 @@
   margin-top: 8rpx;
 }
 
-.pubTitle{
-  display: flex;
-  justify-content: space-between;
-  height: 60rpx;
-  align-items: center;
-  margin-bottom: 40rpx;
-
-}
-.pubTitle .txt{
-  font-size: 40rpx;
-  height: 100%;
-  position: relative;
-  padding-left: 20rpx;
-}
-.pubTitle .txt::before{
-  display: block;
-  content: '';
-  width: 8rpx;
-  height: 40rpx;
-  background: #c8020b;
-  position: absolute;
-  left: 0;
-  top: 35%;
-  margin-top: -15rpx;
-}
-
-.pubTitle .more{
-  font-size: 32rpx;
-  color: #666;
-}
 
 .works{
   background: #f0f3f8;
