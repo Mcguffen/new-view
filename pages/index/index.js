@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    dataList:[]
   },
 
   /**
@@ -15,7 +15,9 @@ Page({
     wx.request({
       url: 'https://ku.qingnian8.com/school/list.php',
       success:res => {
-        console.log(res);
+        this.setData({
+          dataList:res.data
+        })
       }
     })
   },

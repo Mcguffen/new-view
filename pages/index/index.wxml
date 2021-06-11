@@ -126,7 +126,7 @@
       <view class="dyMain">
         <navigator class="dyItem" wx:for="{{dataList}}">
           <view class="pic">
-            <image src="/images/xszp1.jpg"></image>
+            <image src="{{item.picurl}}"></image>
           </view>
           <view class="txt">
             <view class="title">
@@ -134,7 +134,7 @@
             </view>
             <view class="info">
               <text>作者：</text>{{item.author}} <text space="ensp"> - </text>
-              <text>时间：</text>2021-05-01</view>
+              <text>时间：</text>{{item.posttime}}</view>
           </view>
         </navigator>
 
