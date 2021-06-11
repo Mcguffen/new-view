@@ -1,3 +1,4 @@
+<!--pages/id/id.wxml-->
 <view class="header">
   <view class="container hdCon">
     <navigator open-type="switchTab" url="/pages/index/index" class="logo">
@@ -14,34 +15,37 @@
 
 
 <view class="banner">
-  <image  src="/images/psbanner.jpg" mode="widthFix"></image>
+  <image  src="/images/idbanner.jpg" mode="widthFix"></image>
 </view>
 
 <view class="psBox">
   <view class="psBoxTit">专业软件技能</view>
   <view class="psBoxConOne">
   <view class="item">
-    <image src="/images/photoshop.png"></image>
+    <image src="/images/3Dmax.jpg"></image>
     <view>photoshop</view>
   </view>
   <view class="item">
-    <image src="/images/ai.png"></image>
+    <image src="/images/CAD.png"></image>
     <view>Adobe illustrator</view>
   </view>  <view class="item">
-    <image src="/images/id.png"></image>
+    <image src="/images/ps.png"></image>
     <view>indesign</view>
   </view>  <view class="item">
-    <image src="/images/CDR.png"></image>
+    <image src="/images/sp.png"></image>
     <view>coreldraw</view>
-  </view>  <view class="item">
-    <image src="/images/acr.png"></image>
+  </view>  
+  <view class="item">
+    <image src="/images/Vray.png"></image>
     <view>acrobat</view>
   </view>
 
+
+
   </view>  
 </view>
 <view class="psBox">
-  <view class="psBoxTit">平面视觉设计</view>
+  <view class="psBoxTit">专业软件技能</view>
   <view class="psBoxCon">
     <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
     <view class="text">
@@ -58,27 +62,6 @@
 </view>
 
 <view class="psBox">
-  <view class="psBoxTit">商业平面广告设计</view>
-  <view class="psBoxCon">
-    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
-    <view class="text">
-      <view>展架广告设计</view>
-      <view>展览展示广告设计</view>
-      <view>户外卖场广告设计</view>
-      <view>户外广告设计</view>
-      <view>LED屏幕广告设计</view>
-      <view>手机移动通信广告</view>
-      <view>微信信息流广告设计</view>
-      <view>折页设计</view>
-      <view>会员卡设计</view>
-      <view>DM商业宣传</view>
-      <view>招贴设计</view>
-      <view>灯箱海报设计</view>
-
-    </view>
-  </view>  
-</view>
-<view class="psBox">
   <view class="psBoxTit">专业软件技能</view>
   <view class="psBoxCon">
     <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
@@ -123,6 +106,22 @@
       <view>3D文字世界特效制作</view>
       <view>平面广告创意</view>
       <view>合成特性制作</view>
+    </view>
+  </view>  
+</view>
+<view class="psBox">
+  <view class="psBoxTit">项目实训</view>
+  <view class="psBoxCon">
+    <image class="pic" mode="widthFix" src="/images/psmajor02.jpg"></image>
+    <view class="text">
+      <view>方案立项</view>
+      <view>空间分析和改造</view>
+      <view>平立面方案设计</view>
+      <view>软装设计</view>
+      <view>设计方案效果图表现</view>
+      <view>施工图深化</view>
+      <view>方案陈述</view>
+      <view>方案分析</view>
     </view>
   </view>  
 </view>

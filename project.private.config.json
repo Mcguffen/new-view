@@ -23,6 +23,18 @@
           "pathName": "pages/index/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/id/id",
+          "pathName": "pages/id/id",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/ft/ft",
+          "pathName": "pages/ft/ft",
+          "query": "",
+          "scene": null
         }
       ]
     }
